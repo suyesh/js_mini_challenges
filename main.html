@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/master.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="page-header">Question1</h1>
+    <p>Create an HTML page with two buttons that argue with each other. When one button is clicked,the text "I'm right" should be placed next to it.When the other button is clicked, the text is replaced with, "No, I'm right!"</p>
+    <div class="button_container">
+        <img src="assets/images/main-qimg-9a686492136e6d4652bb9f79d29577e5.png">
+        <button type="butt" class="btn btn-primary btn-lg btn-block" id="button1">I am right!!!!</button>
+        <button type="butt" class="btn btn-danger btn-lg btn-block" id="button2">I am right!!</button>
+    </div>
+</div>
+
+<div class="container">
+    <h1 class="page-header">Question2</h1>
+    <p>Create an HTML page with a large element on the page that says "Don't hover over me" inside of it.When you hover over the element, send an alert to the user that says, "Hey, I told you not to hover over me!"</p>
+    <div class="button_container">
+        <button type="butt" class="btn btn-success btn-lg btn-block" id="button3" onmouseover="alertthemsg();">Do not hover over me!!</button>
+    </div>
+</div>
+
+<div class="container">
+    <h1 class="page-header">Question3</h1>
+    <p>Create an HTML page with javascript that listens for a keypress.</p>
+    <ul>
+        <li>When the user presses that key, the text of the H1 should show the value of the key they have pressed.</li>
+        <li>Example: If the user presses "J", the text inside the H1 should be "J".</li>
+    </ul>
+    <div class="button_container">
+        <div class="form-group">
+          <label>Type anything here:</label>
+            <input type="text" class="form-control" id="h1text">
+        </div>
+        <h1 class="btn btn-outline-primary btn-lg btn-block" id="h1TextChange">This Text will change based on what key you press</h1>
+    </div>
+</div>
+
+<div class="container">
+    <h1 class="page-header">Question4</h1>
+    <p>Create an HTML page with a form. The form should include inputs for a username, email, and password as well as a submit button. In a Javascript file, write code that does the following things:
+</p>
+    <ul>
+        <li>checks that the password is 12345678</li>
+        <li>checks that the username contains at least one number</li>
+        <li>if anything is wrong, send an alert message saying "incorrect"</li>
+    </ul>
+    <div class="button_container">
+      <div id="success">
+      </div>
+      <div id="alert">
+
+      </div>
+      <div class="container">
+        <form>
+          <div class="form-group row">
+            <label for="username" class="col-sm-2 col-form-label">Username</label>
+            <div class="col-sm-10">
+              <input type="username" class="form-control" id="username" placeholder="Username">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="password" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+              <button type="button" class="btn btn-primary" id="submit">Sign in</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
